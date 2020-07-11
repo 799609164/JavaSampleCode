@@ -1,0 +1,5 @@
+xxx/mybatis/manytomany/model/Course.class
+xxx/mybatis/manytomany/test/Test.class
+xxx/mybatis/manytomany/mapper/StudentMapper.class
+xxx/mybatis/manytomany/model/Student.class
+xxx/mybatis/manytomany/model/StudentCourseLink.class

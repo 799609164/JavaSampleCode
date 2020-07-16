@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p = "http://www.springframework.org/schema/p"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--一般方法-->
+    <bean id = "FileNameGenerator" class = "com.xxx.spring.bean.FileNameGenerator">
+        <property name = "name">
+            <value>xxx</value>
+        </property>
+        <property name = "type">
+            <value>txt</value>
+        </property>
+    </bean>
+    <!-- 另一重配置方法 缩写方法 -->
+    <!--
+        <bean id = "FileNameGenerator" class = "com.xxx.spring.bean.FileNameGenerator">
+               <property name = "name" value = "xxx" />
+               <property name = "type" value = "txt" />
+           </bean>
+     -->
+    
+     <!-- 第三种配置方法 pschema 方法，需要在 bean 的配置文件 xml 中，加入声明--> 
+     <!--
+     <bean id = "FileNameGenerator" class = "com.xxx.spring.bean.FileNameGenerator"
+             p:name = "xxx" p:type = "txt" />
+     -->
+
+    <bean id = "CustomerBean" class = "com.xxx.spring.innerbean.Customer">
+        <property name = "person" ref = "PersonBean" />
+    </bean>
+
+    <bean id = "PersonBean" class = "com.xxx.spring.innerbean.Person">
+        <property name = "name" value = "xxx" />
+        <property name = "address" value = "chengdu" />
+        <property name = "age" value = "25" />
+    </bean>
+
+    <bean id = "CustomerService"  class = "com.xxx.spring.customer.services.CustomerService" />
+</beans>

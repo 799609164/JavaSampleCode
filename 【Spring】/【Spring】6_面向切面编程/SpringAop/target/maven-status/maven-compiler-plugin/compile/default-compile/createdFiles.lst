@@ -1,0 +1,10 @@
+com/xxx/spring/aop/aspectj/ICustomerBo.class
+com/xxx/spring/aop/advice/App.class
+com/xxx/spring/aop/advice/HijackAroundMethod.class
+com/xxx/spring/aop/advice/HijackAfterMethod.class
+com/xxx/spring/aop/aspectj/CustomerBo.class
+com/xxx/spring/aop/aspectj/LoggingAspect.class
+com/xxx/spring/aop/advice/HijackBeforeMethod.class
+com/xxx/spring/aop/advice/HijackThrowExceptionMethod.class
+com/xxx/spring/aop/advice/CustomerService.class
+com/xxx/spring/aop/aspectj/App.class

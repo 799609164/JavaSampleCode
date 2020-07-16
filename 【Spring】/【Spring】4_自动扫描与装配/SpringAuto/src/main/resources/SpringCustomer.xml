@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/context
+                             http://www.springframework.org/schema/context/spring-context.xsd
+                             http://www.springframework.org/schema/beans
+                             http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 
+  	context:component-scan 标签：Spring 的自动扫描特性引入 
+  	base-package：组件的存放位置；
+  	Spring 将扫描对应文件夹下的 bean（@Component 注释过的），将这些 bean 注册到容器中 
+	  -->
+    <context:component-scan base-package = "com.xxx.spring"/>
+</beans>

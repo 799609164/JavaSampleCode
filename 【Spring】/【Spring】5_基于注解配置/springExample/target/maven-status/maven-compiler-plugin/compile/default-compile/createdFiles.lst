@@ -1,0 +1,10 @@
+com/xxx/demo/service/Hello.class
+com/xxx/demo/entity/Person.class
+com/xxx/demo/service/HelloImpl2.class
+com/xxx/demo/config/SpringConfig.class
+com/xxx/demo/config/Client.class
+com/xxx/demo/App.class
+com/xxx/demo/config/Service.class
+com/xxx/demo/service/HelloImpl1.class
+com/xxx/demo/helloworld/HelloWorld.class
+com/xxx/demo/entity/Dog.class

@@ -1,0 +1,11 @@
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/first/UserOneService.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/first/FirstDataSourceConfiguration.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/second/UserTwoRepository.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/DataSourceConfig.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/first/UserOneRepository.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/DataSourceTest.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/first/UserOne.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/second/SecondDataSourceConfiguration.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/second/UserTwoService.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/SpringbootApplication.java
+/home/project/springboot-multidatasource/src/main/java/com/xxx/springboot/second/UserTwo.java

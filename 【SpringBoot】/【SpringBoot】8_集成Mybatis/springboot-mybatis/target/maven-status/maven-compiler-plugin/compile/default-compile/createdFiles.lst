@@ -1,0 +1,9 @@
+com/xxx/springboot/entity/User.class
+com/xxx/springboot/service/IUserService.class
+com/xxx/springboot/service/impl/UserServiceImpl.class
+com/xxx/springboot/SpringbootApplication.class
+com/xxx/springboot/controller/UserController.class
+com/xxx/springboot/dao/UserMapper.class
+com/xxx/springboot/dao/BaseMapper.class
+com/xxx/springboot/service/impl/BaseServiceImpl.class
+com/xxx/springboot/service/IBaseService.class

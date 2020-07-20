@@ -1,0 +1,9 @@
+/home/project/springboot-mybatis/src/main/java/com/xxx/springboot/service/impl/BaseServiceImpl.java
+/home/project/springboot-mybatis/src/main/java/com/xxx/springboot/controller/UserController.java
+/home/project/springboot-mybatis/src/main/java/com/xxx/springboot/SpringbootApplication.java
+/home/project/springboot-mybatis/src/main/java/com/xxx/springboot/dao/BaseMapper.java
+/home/project/springboot-mybatis/src/main/java/com/xxx/springboot/service/impl/UserServiceImpl.java
+/home/project/springboot-mybatis/src/main/java/com/xxx/springboot/entity/User.java
+/home/project/springboot-mybatis/src/main/java/com/xxx/springboot/service/IUserService.java
+/home/project/springboot-mybatis/src/main/java/com/xxx/springboot/service/IBaseService.java
+/home/project/springboot-mybatis/src/main/java/com/xxx/springboot/dao/UserMapper.java
